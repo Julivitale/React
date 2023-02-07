@@ -1,0 +1,50 @@
+.cardProducto{
+    width: 18rem;
+    margin: 4px;
+    border-radius: 7px;
+    border: grey solid 1px;
+    box-shadow: 3px 3px 3px rgba(158, 158, 158, 0.575);
+}
+
+.cardBody{
+    background-color: white;
+    margin-bottom: 3px;
+    text-align: center;
+    padding: 10px;
+}
+
+img{
+    margin-top: 3px;
+    padding-top: 5px;
+    width: 150px;
+    height: 150px;
+}
+.cardProductos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin:100px;
+    gap: 10px;
+
+
+}
+
+.itemDetail{
+    max-width:540px;
+    margin-top: 20px;
+}
+
+.btn-secondary{
+    border-radius: 5px;
+    border-color: black solid 1px;
+    margin-top: 5px;
+}
+
+
+.btn-count{
+
+    border-radius: 5px;
+    border-color: black solid 1px;
+    margin: 5px;
+    background-color: white;
+
+}

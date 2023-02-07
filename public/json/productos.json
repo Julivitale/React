@@ -1,0 +1,48 @@
+[
+    {
+      "nombre": "Gestion de empresas",
+      "duracion": "5 meses",
+      "precio": 5000,
+      "id": 1,
+      "idCategoria":"gestion",
+      "vacantes":20,
+      "img": "./curso-excelavanzado.jpg"
+    },
+    {
+      "nombre": "Cursos de Gestión y Management",
+      "duracion": "3 meses",
+      "precio": 7000,
+      "id": 2,
+      "idCategoria":"gestion",
+      "vacantes":20,
+      "img": "./Curso-gestiondeempresa.jpg"
+
+    },
+    {
+      "nombre": "Curso de Ingenieria basico",
+      "duracion": "7 meses",
+      "precio": 10000,
+      "id": 3,
+      "idCategoria":"ingenieria",
+      "vacantes":20,
+      "img": "./Curso-managment.jpg"
+    },
+    {
+      "nombre": "Curso de Excel Avanzado",
+      "duracion": "5 meses",
+      "precio": 7000,
+      "id": 4,
+      "idCategoria":"excel",
+      "vacantes":20,
+      "img":  "./Curso-ingenieria.jpg"
+    },
+    {
+      "nombre": "Curso de Excel",
+      "duracion": "2 meses",
+      "precio": 4000,
+      "id": 5,
+      "idCategoria":"excel",
+      "vacantes":20,
+      "img":  "./Curso-excell.jpg"
+    }
+  ]

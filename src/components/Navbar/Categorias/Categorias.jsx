@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Categorias = () => {
     return (
             <li className="nav-item dropdown">
@@ -5,9 +7,9 @@ const Categorias = () => {
              <button className="btn btn-dark"> Cursos</button>
             </a>
             <ul className="dropdown-menu">
-              <li><a className="dropdown-item" href="#">Excel</a></li>
-              <li><a className="dropdown-item" href="#">Gestion</a></li>
-              <li><a className="dropdown-item" href="#">Ingenieria</a></li>
+              <li><Link className="dropdown-item" to={"/category/gestion"}>Gestion</Link></li>
+              <li><Link className="dropdown-item" to={"/category/ingenieria"}>Excel</Link></li>
+              <li><Link className="dropdown-item" to={"/category/excel"}>Ingenieria</Link></li>
             </ul>
           </li>
 
