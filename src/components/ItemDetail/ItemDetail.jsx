@@ -1,5 +1,15 @@
  import {ItemCount} from '../ItemCount/itemCount'
+
+ //context
+ import { useDarkModeContext } from "../../Context/DarkModeContext";
 export const ItemDetail = ({item}) => {
+     const {darkMode} = useDarkModeContext()
+
+    const onAdd = (contador) => {
+        console.log(contador)
+        console.log(item)
+
+    }
     return (
         <div className='row g-0'>
             <div className='col-md-4'>
@@ -11,7 +21,7 @@ export const ItemDetail = ({item}) => {
                     <p className='card-text'>{`Duracion del curso: ${item.duracion}`}</p>
                     <p className='card-text'>$ {new Intl.NumberFormat('de-DE').format (item.precio)}</p>
                     <p className='card-text'>{`Vacantes libres: ${item.vacantes}`}</p>
-                    <ItemCount valInicial={1} vacantes={item.vacantes}/>
+                    <ItemCount valInicial={1} vacantes={item.vacantes} onAdd={onAdd}/>
                   <div><button className='btn btn-secondary'>Finalizar compra</button></div>
                 </div>
 

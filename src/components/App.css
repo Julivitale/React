@@ -13,6 +13,14 @@
     padding: 10px;
 }
 
+.cardBodyDark{
+    background-color: rgb(71, 71, 71);
+    margin-bottom: 3px;
+    text-align: center;
+    padding: 10px;
+
+}
+
 img{
     margin-top: 3px;
     padding-top: 5px;
@@ -33,6 +41,12 @@ img{
     margin-top: 20px;
 }
 
+.itemDetailBodyDark{
+    background-color: rgb(71, 71, 71);
+color: white;
+
+}
+
 .btn-secondary{
     border-radius: 5px;
     border-color: black solid 1px;
@@ -47,4 +61,14 @@ img{
     margin: 5px;
     background-color: white;
 
+}
+
+.container{
+    margin-top: 80px;
+    padding: 50px;
+}
+
+.darkMode{
+    background-color: black;
+    color: gainsboro;
 }
